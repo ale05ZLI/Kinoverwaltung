@@ -1,0 +1,18 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>640</x><y>60</y><w>240</w><h>90</h></coordinates><panel_attributes>Datenbankverbindung
+--
+-Verbindung
+--
+-Verbindung herstellen</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>260</y><w>210</w><h>120</h></coordinates><panel_attributes>Saal
+--
+-id Saal
+-id Film
+-id Zeit
+--
+-Film Anzeigen</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>790</x><y>240</y><w>210</w><h>140</h></coordinates><panel_attributes>Sitzplätze
+--
+-id Platz
+-idfs Film
+-id Zeit
+--
+-Plätze Anzeigen
+-Platz reservieren</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>140</y><w>60</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>820</x><y>140</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;30;100</additional_attributes></element></diagram>
